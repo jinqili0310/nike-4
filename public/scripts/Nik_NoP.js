@@ -4,6 +4,7 @@ var bye = 0;
 var sayBye// = setInterval(sayGoodbye, 600000);
 var user_name = '';
 var type_anim_on = 0;
+console.log("ok");
 
 var prescripted_questions = new Array();
 var prescripted_mode = 0;
