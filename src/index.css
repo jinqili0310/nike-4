@@ -1,0 +1,449 @@
+@font-face {
+	font-family: TG-regular;
+	src: url("./assets/fonts/Trade\ Gothic\ LT.ttf");
+}
+
+@font-face {
+	font-family: TG-bold;
+	src: url("./assets/fonts/Trade\ Gothic\ LT\ Bold.ttf");
+}
+
+@font-face {
+	font-family: TG-bold-ob;
+	src: url("./assets/fonts/Trade\ Gothic\ LT\ Bold\ Oblique.ttf");
+}
+
+@font-face {
+	font-family: TG-light;
+	src: url("./assets/fonts/Trade\ Gothic\ LT\ Light.ttf");
+}
+
+@font-face {
+	font-family: TG-ob;
+	src: url("./assets/fonts/Trade\ Gothic\ LT\ Oblique.ttf");
+}
+
+@font-face {
+	font-family: Futura;
+	src: url("./assets/fonts/Futura\ Condensed\ Extra\ Bold.otf");
+}
+
+@font-face {
+	font-family: Futura-ob;
+	src: url("./assets/fonts/Futura\ Condensed\ Extra\ Bold\ Oblique.otf");
+}
+
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #111;
+}
+
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #111;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.container-style {
+	margin: 0 !important;
+	width: 100% !important;
+	padding: 0 !important;
+	max-width: 100% !important;
+}
+
+.nav-style {
+	position: fixed !important;
+	height: 80px;
+	vertical-align: baseline;
+	background-color: #fff;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5;
+	display: flex !important;
+	justify-content: space-between !important;
+	flex-direction: row !important;
+	padding: 0 !important;
+}
+
+.nav-form {
+	width: 100px;
+}
+
+.nav-brand {
+	padding: 12px 20px !important;
+}
+
+.nav-icon {
+	width: 60px;
+	height: 23.7px;
+}
+
+.nav-icon:before {
+	content: "\E648";
+}
+
+.nav-link-group {
+	display: flex !important;
+	margin: 0 !important;
+	flex-direction: row !important;
+	justify-content: center !important;
+	height: 80px !important;
+	align-items: center !important;
+}
+
+.nav-link {
+	color: #111 !important;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	font-family: TG-bold !important;
+	height: 80px !important;
+	align-items: center !important;
+	padding: 25px 20px 0 20px !important;
+}
+
+.link-focus {
+	box-shadow: inset 0 -2px 0 0 #111;
+}
+
+.card-title {
+	margin: 0 !important;
+}
+
+.intro-title {
+	font-family: Futura !important;
+	margin: 0;
+	color: #fff !important;
+	font-size: 72px !important;
+	line-height: .833333 !important;
+}
+
+.intro-title {
+	font-family: Futura !important;
+	margin: 0;
+	font-size: 72px !important;
+	line-height: .833333 !important;
+}
+
+.intro-title-more {
+	margin-bottom: 8px !important;
+}
+
+.intro-text {
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	font-weight: 500 !important;
+}
+
+.everyday-label {
+	padding: 0 5% !important;
+	margin-top: 100px !important;
+}
+
+.intro-card {
+	padding-top: 20px !important;
+}
+
+.card-area {
+	padding: 0 6%;
+	position: relative;
+}
+
+.simple-overlay {
+	position: relative;
+}
+
+.simple-content {
+	margin-top: 620px;
+	margin-left: 10px;
+}
+
+.simple-text {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-bottom: 8px !important;
+}
+
+.text-light {
+	color: #fff !important;
+}
+
+.text-black {
+	color: #111 !important;
+}
+
+.simple-card-left {
+	padding: 16px 8px 0 0 !important;
+}
+
+.simple-card-right {
+	padding: 16px 0 0 8px !important;
+}
+
+.card-image {
+	border-radius: 0 !important;
+	width: 100%;
+	position: absolute !important;
+	display: block;
+	object-fit: cover;
+}
+
+.card-style {
+	border: none !important;
+	border-radius: 0 !important;
+	position: relative !important;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.large-card,
+.large-card-image {
+	height: 900px !important;
+}
+
+.medium-card,
+.medium-card-image {
+	height: 700px !important;
+}
+
+.card-col {
+	padding: 0 !important;
+}
+
+.button-style {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 8px 28px !important;
+	transition: color .5s ease-out !important;
+	position: relative;
+	z-index: 1;
+	margin-left: 0;
+	margin-right: 6px;
+	margin-top: 6px;
+	max-width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	border-radius: 20px !important;
+	border: none !important;
+	text-align: center !important;
+	text-decoration: none;
+	font-weight: 500 !important;
+	margin-top: 18px;
+}
+
+.button-white {
+	color: #111 !important;
+	background: #fff !important;
+}
+
+.button-dark {
+	color: #fff !important;
+	background: #111 !important;
+}
+
+.latest-label {
+	margin-top: 60px !important;
+	padding-left: 5% !important;
+}
+
+.latest-title {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1.166667;
+}
+
+.latest-link,
+.latest-link:hover {
+	text-decoration: none !important;
+	color: #111;
+	float: right;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-right: 5% !important;
+}
+
+.product-card-group {
+	padding: 0 6%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-intro-start {
+	padding-top: 1.5% !important;
+}
+
+.product-intro {
+	padding: 0 5% 10px;
+}
+
+.intro-text-one {
+	padding: 5% 5% 0;
+	line-height: 1.25;
+}
+
+.intro-text-two {
+	padding: 0 5% 0;
+	line-height: 1.25;
+}
+
+.intro-text-three {
+	padding: 12% 5% 0;
+	line-height: 1.25;
+}
+
+.small-image {
+	border-radius: 0 !important;
+	width: 100% !important;
+	display: block;
+}
+
+.best-card-image {
+	border-radius: 0 !important;
+	width: 100% !important;
+	display: block;
+	height: 640px;
+	object-fit: cover;
+	position: absolute !important;
+}
+
+.best-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-bottom: 8px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #111;
+}
+
+.best-label {
+	margin-top: 660px;
+	padding: 0 5%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.product-card-image {
+	height: 512px !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	display: block;
+	object-fit: cover;
+}
+
+.product-card-left {
+	padding: 20px 15px 0 0 !important;
+}
+
+.product-card-mid {
+	padding: 20px 0 0 0 !important;
+}
+
+.product-card-right {
+	padding: 20px 0 0 15px !important;
+}
+
+.product-card {
+	border-radius: 0 !important;
+	border: none !important;
+}
+
+.product-card-body {
+	padding: 10px 15px 0 0 !important;
+}
+
+.product-card-title {
+	float: left;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	font-weight: 500 !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.product-card-price {
+	float: right;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	font-weight: 500 !important;
+}
+
+.product-card-text {
+	float: left;
+	color: #757575;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	font-weight: 400 !important;
+}
+
+.footer-text {
+	color: #fff;
+	font-family: TG-bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin-bottom: 4px;
+	line-height: 2;
+	font-weight: 400;
+}
+
+.footer-area {
+	position: relative;
+	display: flex !important;
+	margin-top: 80px;
+	background: #000;
+	padding: 40px;
+	justify-content: space-evenly;
+}
+
+.footer-grey {
+	color: #7e7e7e;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin-bottom: 4px;
+	line-height: 2;
+	font-weight: 400;
+}
+
+.footer-last {
+	background: #000;
+	padding: 20px 40px;
+	margin-top: 740px;
+}
+
+.footer-last-left {
+	float: left;
+}
+
+.footer-last-grey {
+	color: #7e7e7e;
+}
+
+.footer-last-white,
+.footer-last-white path {
+	color: #fff;
+}
+
+.footer-last-right {
+	float: right;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.shop-card-image {
+	height: 500px;
+	display: block;
+	object-fit: cover;
+}
+
+.shop-area-top {
+	margin-top: 80px;
+}
+
+.shop-area {
+	padding: 0 5%;
+}
