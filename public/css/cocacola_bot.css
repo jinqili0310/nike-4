@@ -53,13 +53,13 @@
 }
 
 .chat_button {
-	background-color: #282828;
+	background-color: #fcd338;
 	padding: 5px 5px;
 	margin: 8px 10px;
 	text-align: center;
 	border-radius: 5px;
 	font-family: Courier New;
-	color: white;
+	color: black;
 	width: 40%;
 }
 
