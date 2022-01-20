@@ -1,4 +1,4 @@
-var icon_img = 'https://kikijinqili.github.io/assets/nike/nike-logo.png'
+var icon_img = 'https://jinqili0310.github.io/assets/nike/nike-logo.png'
 var playAd = 0;
 var bye = 0;
 var sayBye// = setInterval(sayGoodbye, 600000);
@@ -27,7 +27,7 @@ function createQuestions() {
 
 	prescripted_questions[0] = new Question(['How\’s your day going?'], ['I’m doing well 😃', 'It’s alright 😶','I need a nap 😏'], 1, 1)
 	prescripted_questions[1] = new Question(['Okay. Let me cheer you up by showing you our awesome Nike products'], [""], 2, 0)
-	prescripted_questions[2] = new Question(["https://kikijinqili.github.io/assets/nike/Nike%20GIF4.gif"], [""], 3, 0);
+	prescripted_questions[2] = new Question(["https://jinqili0310.github.io/assets/nike/Nike%20GIF4.gif"], [""], 3, 0);
 	prescripted_questions[3] = new Question(["How can I help today?"], ['New Releases', 'Shoes & Clothes', 'Shop by Sport', 'Our Commitment to the Athlete in You'], 4, 3);
 	prescripted_questions[4] = new Question([ "What would you like to know more about?"], ['Our Mission 👊', 'Our Team 💯', 'Nike News 📑'], 5, 0);
 	prescripted_questions[5] = new Question(["Our mission is to bring inspiration and innovation to every athlete in the world! And if you have a body (unlike me), you’re an athlete!"],[''], 6, 0);
